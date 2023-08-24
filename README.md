@@ -2,10 +2,10 @@
 
 ## Projeto
 
-Este projeto foi desenvolvido para aplicar habilidades em ReactJS, Javascript, HTML e CSS, para a criação do projeto do front-end para a aplicação Roocketmovies.
+Este projeto foi desenvolvido para aplicar habilidades em ReactJS, Javascript, HTML e CSS, para a criação do projeto do front-end para a aplicação RoocketMovies.
 
 <p>
-  <img src="./src/assets/readme-capa.png" width="30%">
+  <img src="./src/assets/capa-readme.png" width="50%">
 </p>
 
 Para rodar o projeto: <br>
@@ -19,6 +19,7 @@ Para rodar o projeto: <br>
 - HTML
 - CSS
 - JavaScript
+- Styled Components
 
 
-Projeto criado a partir de um desafio do nível 9 do Explorer da Rocketseat.
+Projeto criado a partir de um desafio proposto do nível 9 do Explorer da Rocketseat.

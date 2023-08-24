@@ -2,8 +2,8 @@ import { styled } from "styled-components";
 
 export const Container = styled.button`
   width: 100%;
-  background-color: ${({ theme, isDelete }) => isDelete ? "transparent" : theme.colors.pink};
-  color: ${({ theme, isDelete }) => isDelete ? theme.colors.pink : theme.colors.background_800};
+  background-color: ${({ theme, $isdelete }) => $isdelete ? "transparent" : theme.colors.pink};
+  color: ${({ theme, $isdelete }) => $isdelete ? theme.colors.pink : theme.colors.background_800};
   
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@ export const Container = styled.button`
   gap: 10px;
 
   height: 56px;
-  border: ${({ theme, isDelete }) => isDelete ? `1px solid ${theme.colors.pink}` : "none"};
+  border: ${({ theme, $isdelete }) => $isdelete ? `1px solid ${theme.colors.pink}` : "none"};
   padding: 0 16px;
   margin-top: 16px;
   border-radius: 10px;

@@ -16,6 +16,7 @@ export function New() {
       <main>
         <div className="wrapper">
           <ButtonText
+            to="/"
             title="Voltar"
             icon={FiArrowLeft}
           />

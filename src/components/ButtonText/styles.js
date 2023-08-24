@@ -1,6 +1,7 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
-export const Container = styled.button`
+export const Container = styled(Link)`
 	background: transparent;
 	border: 0;
 
@@ -9,7 +10,6 @@ export const Container = styled.button`
 	font-family: 'Roboto Slab', sans-serif;
 
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	gap: 8px;
 `
