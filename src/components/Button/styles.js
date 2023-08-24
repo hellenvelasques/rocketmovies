@@ -4,6 +4,11 @@ export const Container = styled.button`
   width: 100%;
   background-color: ${({ theme }) => theme.colors.pink};
   color: ${({ theme }) => theme.colors.background_800};
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 
   height: 56px;
   border: 0;
