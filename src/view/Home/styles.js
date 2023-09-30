@@ -8,6 +8,16 @@ export const Container = styled.div`
     padding: 0 124px;
   }
 
+  > .titleLine {
+		display: grid;
+		grid-template-rows: 1fr auto;
+		grid-template-columns: 1fr auto;
+
+		align-items: center;
+
+		padding: 0 124px;
+	}
+
   .header-home {
     display: flex;
     align-items: center;

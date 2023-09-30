@@ -16,7 +16,6 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
   padding: 34px 123px;
-
 `;
 
 export const Brand = styled.div`
@@ -32,19 +31,24 @@ export const Brand = styled.div`
 
 export const Profile = styled(Link)`
   display: flex;
-  align-items: center;
-
+  align-items: end;
+  flex-direction: column;
   text-align: right;
+`;
 
-  > img { 
+export const ProfileAvatar = styled(Link)`
+
+> img { 
     width: 56px;
     height: 56px;
     border-radius: 50%;
     margin-left: 10px;
     border: 2px solid ${({ theme }) => theme.colors.gray_200};
   }
-
-  > div {
+  
+`;
+export const ProfileName = styled(Link)`
+> div {
     display: flex;
     flex-direction: column;
     margin-left: 16px;
@@ -65,6 +69,8 @@ export const Profile = styled(Link)`
 export const Logout = styled.a`
   border: none;
   background: none;
+    font-size: 14px;
+    color: ${({ theme }) => theme.colors.gray_100};
 `;
 
 export const Search = styled.div`

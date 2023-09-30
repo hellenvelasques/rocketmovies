@@ -9,17 +9,27 @@ export const Container = styled.div`
     width: 100%;
     height: 144px;
     background: ${({ theme }) => theme.colors.pink_light};
+    
 
     display: flex;
     align-items: center;
     padding: 0 124px;
+
+    > button {
+      border: 0;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: ${({ theme }) => theme.colors.gray_100};
+    }
 
     svg {
       color: ${({ theme }) => theme.colors.gray_100};
       font-size: 24px;
     }
 
-     > a {
+    > a {
       font-size: 16px;
       display: flex;
       align-items: center;

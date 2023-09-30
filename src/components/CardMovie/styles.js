@@ -7,6 +7,7 @@ export const Container = styled.div`
 
   background-color: ${({ theme }) => theme.colors.pink_light};
   color: ${({ theme }) => theme.colors.gray_100};
+  margin-bottom: 24px;
 
   cursor: pointer;
 

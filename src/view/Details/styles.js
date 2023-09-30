@@ -42,7 +42,7 @@ export const Container = styled.div`
 `
 
 export const MovieTitle = styled.div`
-	max-width: 460px;
+	max-width: 100%;
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
